@@ -9,16 +9,12 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Debunked by Chat`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `A collection of information to combat the disinformation campaign against H3, Ethan and Hila Klein.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `A collection of information to combat the disinformation campaign against H3, Ethan and Hila Klein.`,
+    siteUrl: `https://debunkedbychat.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -110,7 +106,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Debunked by Chat`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
