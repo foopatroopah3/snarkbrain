@@ -50,6 +50,15 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
         ],
+        rehypePlugins: [
+          [
+            require(`rehype-external-links`),
+            {
+              target: `_blank`,
+              rel: [`noopener`, `noreferrer`],
+            },
+          ],
+        ],
       },
     },
     `gatsby-transformer-sharp`,
