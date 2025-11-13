@@ -48,16 +48,14 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-        ],
-        rehypePlugins: [
-          [
-            require(`rehype-external-links`),
-            {
+          {
+            resolve: `gatsby-remark-external-links`,
+            options: {
               target: `_blank`,
               rel: [`noopener`, `noreferrer`],
             },
-          ],
+          },
+          `gatsby-remark-prismjs`,
         ],
       },
     },
